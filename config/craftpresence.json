@@ -14,17 +14,17 @@
     "detectWorldData": true,
     "clientId": "450485984333660181",
     "defaultIcon": "grass",
-    "enableJoinRequests": false,
+    "enableJoinRequests": true,
     "partyPrivacyLevel": 1,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
-    "autoRegister": false
+    "autoRegister": true
   },
   "biomeSettings": {
     "fallbackBiomeIcon": "unknown",
     "biomeData": {
       "ocean": {
-        "textOverride": "Playing in {biome.name}",
+        "textOverride": "Находится в {biome.name}23132",
         "data": {
           "enabled": true,
           "useAsMain": false,
@@ -45,7 +45,196 @@
         }
       },
       "default": {
-        "textOverride": "Playing in {biome.name}"
+        "textOverride": "Исследует {biome.name}"
+      },
+      "plains": {
+        "textOverride": "Исследует равнины"
+      },
+      "ice_spikes": {
+        "textOverride": "Исследует ледяные пики"
+      },
+      "deep_dark": {
+        "textOverride": "Исследует темные глубины"
+      },
+      "deep_ocean": {
+        "textOverride": "Исследует глубокий океан"
+      },
+      "windswept_forest": {
+        "textOverride": "Исследует выветренный лес"
+      },
+      "meadow": {
+        "textOverride": "Исследует луга"
+      },
+      "frozen_ocean": {
+        "textOverride": "Исследует замерзший океан"
+      },
+      "deep_frozen_ocean": {
+        "textOverride": "Исследует глубокий замерзший океан"
+      },
+      "swamp": {
+        "textOverride": "Исследует болото"
+      },
+      "grove": {
+        "textOverride": "Исследует рощу"
+      },
+      "lush_caves": {
+        "textOverride": "Исследует пышные пещеры"
+      },
+      "eroded_badlands": {
+        "textOverride": "Исследует выветренную пустошь"
+      },
+      "windswept_gravelly_hills": {
+        "textOverride": "Исследует выветренные гравийные холмы"
+      },
+      "end_barrens": {
+        "textOverride": "Исследует окраины края"
+      },
+      "old_growth_spruce_taiga": {
+        "textOverride": "Исследует подзолистую еловую тайгу"
+      },
+      "snowy_plains": {
+        "textOverride": "Исследует заснеженные равнины"
+      },
+      "jungle": {
+        "textOverride": "Исследует джунгли"
+      },
+      "badlands": {
+        "textOverride": "Исследует пустошь"
+      },
+      "beach": {
+        "textOverride": "Исследует пляж"
+      },
+      "deep_cold_ocean": {
+        "textOverride": "Исследует глубокий холодный океан"
+      },
+      "savanna_plateau": {
+        "textOverride": "Исследует плато саванны"
+      },
+      "stony_peaks": {
+        "textOverride": "Исследует каменистые вершины"
+      },
+      "snowy_taiga": {
+        "textOverride": "Исследует заснеженную тайгу"
+      },
+      "bamboo_jungle": {
+        "textOverride": "Исследует бамбуковые джунгли"
+      },
+      "desert": {
+        "textOverride": "Исследует пустыню"
+      },
+      "cold_ocean": {
+        "textOverride": "Исследует холодный океан"
+      },
+      "sunflower_plains": {
+        "textOverride": "Исследует подсолнечниковые равнины"
+      },
+      "old_growth_pine_taiga": {
+        "textOverride": "Исследует подзолистую сосновую тайгу"
+      },
+      "small_end_islands": {
+        "textOverride": "Исследует островки края"
+      },
+      "cherry_grove": {
+        "textOverride": "Исследует вишнёвые луга"
+      },
+      "deep_lukewarm_ocean": {
+        "textOverride": "Исследует глубокий умеренный океан"
+      },
+      "dripstone_caves": {
+        "textOverride": "Исследует карстовую пещеру"
+      },
+      "flower_forest": {
+        "textOverride": "Исследует цветочный лес"
+      },
+      "windswept_savanna": {
+        "textOverride": "Исследует выветренную саванну"
+      },
+      "jagged_peaks": {
+        "textOverride": "Исследует зубчатые вершины"
+      },
+      "dark_forest": {
+        "textOverride": "Исследует тёмный лес"
+      },
+      "frozen_river": {
+        "textOverride": "Исследует замёрзшую реку"
+      },
+      "frozen_peaks": {
+        "textOverride": "Исследует оледенелые вершины"
+      },
+      "taiga": {
+        "textOverride": "Исследует тайгу"
+      },
+      "end_midlands": {
+        "textOverride": "Исследует равнины края"
+      },
+      "nether_wastes": {
+        "textOverride": "Исследует пустоши Нижнего мира"
+      },
+      "savanna": {
+        "textOverride": "Исследует саванну"
+      },
+      "wooded_badlands": {
+        "textOverride": "Исследует лесистую пустошь"
+      },
+      "snowy_slopes": {
+        "textOverride": "Исследует снежные склоны"
+      },
+      "birch_forest": {
+        "textOverride": "Исследует березняк"
+      },
+      "warped_forest": {
+        "textOverride": "Исследует искаженный лес"
+      },
+      "end_highlands": {
+        "textOverride": "Исследует возвышенности Края"
+      },
+      "sparse_jungle": {
+        "textOverride": "Исследует редеющие джунгли"
+      },
+      "mushroom_fields": {
+        "textOverride": "Исследует грибные поля"
+      },
+      "soul_sand_valley": {
+        "textOverride": "Исследует долину песка душ"
+      },
+      "the_void": {
+        "textOverride": "Исследует пустоту"
+      },
+      "old_growth_birch_forest": {
+        "textOverride": "Исследует многолетний березняк"
+      },
+      "the_end": {
+        "textOverride": "Исследует Край"
+      },
+      "crimson_forest": {
+        "textOverride": "Исследует багровый лес"
+      },
+      "warm_ocean": {
+        "textOverride": "Исследует теплый океан"
+      },
+      "snowy_beach": {
+        "textOverride": "Исследует заснеженный пляж"
+      },
+      "windswept_hills": {
+        "textOverride": "Исследует выветренные холмы"
+      },
+      "forest": {
+        "textOverride": "Исследует лес"
+      },
+      "lukewarm_ocean": {
+        "textOverride": "Исследует умеренный океан"
+      },
+      "mangrove_swamp": {
+        "textOverride": "Исследует мангровое болото"
+      },
+      "river": {
+        "textOverride": "Исследует река"
+      },
+      "stony_shore": {
+        "textOverride": "Исследует каменистый берег"
+      },
+      "basalt_deltas": {
+        "textOverride": "Исследует базальтовые дельты"
       }
     }
   },
@@ -53,7 +242,7 @@
     "fallbackDimensionIcon": "unknown",
     "dimensionData": {
       "": {
-        "textOverride": "In the {dimension.name}",
+        "textOverride": "В {dimension.name}",
         "data": {
           "enabled": true,
           "useAsMain": false,
@@ -74,17 +263,68 @@
         }
       },
       "default": {
-        "textOverride": "В {dimension.name}"
+        "textOverride": "Находится в {dimension.name}"
+      },
+      "overworld": {
+        "textOverride": "Находится в Верхнем мире"
+      },
+      "the_nether": {
+        "textOverride": "Находится в Нижнем мире"
+      },
+      "the_end": {
+        "textOverride": "Находится в Крае"
+      },
+      "overworld_caves": {
+        "textOverride": "Находится в пещерах"
       }
     }
   },
   "serverSettings": {
     "fallbackServerIcon": "default",
-    "fallbackServerName": "Minecraft Server",
-    "fallbackServerMotd": "A Minecraft Server",
+    "fallbackServerName": "Minecraft Сервер",
+    "fallbackServerMotd": "Minecraft Сервер",
     "serverData": {
       "default": {
-        "textOverride": "Playing on {server.motd.raw}"
+        "textOverride": "Играет на {server.name}",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Пример текста",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "minecraft.laspegasus.ru": {
+        "textOverride": "Играет на {server.name}",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Пример текста",
+              "url": "https://google.com"
+            }
+          }
+        }
       }
     }
   },
@@ -121,9 +361,9 @@
     }
   },
   "advancedSettings": {
-    "enablePerGui": false,
-    "enablePerItem": false,
-    "enablePerEntity": false,
+    "enablePerGui": true,
+    "enablePerItem": true,
+    "enablePerEntity": true,
     "formatWords": true,
     "debugMode": false,
     "verboseMode": false,
@@ -133,23 +373,23 @@
       "fallbackGuiIcon": "unknown",
       "guiData": {
         "default": {
-          "textOverride": "In {screen.name}"
+          "textOverride": "В {screen.name}"
         }
       }
     },
     "itemMessages": {
-      "default": "Holding {item.message.holding}"
+      "default": "Держит {item.message.holding}"
     },
     "entitySettings": {
       "fallbackEntityIcon": "unknown",
       "targetData": {
         "default": {
-          "textOverride": "Targeting {entity.target.name}"
+          "textOverride": "Целится в {entity.target.name}"
         }
       },
       "ridingData": {
         "default": {
-          "textOverride": "Riding {entity.riding.name}"
+          "textOverride": "Катается {entity.riding.name}"
         }
       }
     },
@@ -214,7 +454,7 @@
       },
       "texLocation": "minecraft:textures/gui/widgets.png"
     },
-    "languageId": "ru_ru",
+    "languageId": "ru",
     "stripTranslationColors": false,
     "showLoggingInChat": true,
     "stripExtraGuiElements": false,
@@ -225,17 +465,17 @@
     "presenceData": {
       "enabled": true,
       "useAsMain": false,
-      "details": "{getFirst(menu.message, dimension.message)}",
-      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "details": "{getFirst(menu.message, biome.message)}",
+      "gameState": "{getOrDefault(server.message)}",
       "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
       "largeImageText": "{getFirst(menu.message, dimension.message)}",
       "smallImageKey": "{getFirst(server.icon, pack.icon)}",
-      "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "smallImageText": "Версия {getOrDefault(pack.name)}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
       "buttons": {
         "default": {
-          "label": "Example Text",
+          "label": "Пример текста",
           "url": "https://google.com"
         }
       }
@@ -246,16 +486,15 @@
       "minecraft.laspegasus.ru": "https://api.mcsrvstat.us/icon/minecraft.laspegasus.ru"
     },
     "dynamicVariables": {
-      "default": "Example Text",
-      "mods": "{general.mods} Mod(s)",
-      "player_info_coordinate": "At {player.position.x}, {player.position.z}",
-      "players": "{server.players.current} / {server.players.max} Players",
-      "player_info_in": "({custom.player_info.health})",
-      "player_info_items": "Items: {item.main_hand.message}",
-      "player_info_out": "As {player.name}",
-      "player_info_health": "Health: {player.health.current}/{player.health.max}",
-      "world_info": "On {world.name}",
-      "pack": "{pack.name}"
+      "default": "Пример текста",
+      "mods": "{general.mods} Мод(ы)",
+      "pack": "{pack.name}",
+      "player_health": "Здоровье {player.health.current}/{player.health.max}",
+      "player_item": "Держит предмет {item.main_hand.message}",
+      "player_name": "Как {player.name}",
+      "player_position": "Находится на {player.position.x}, {player.position.z}",
+      "server_players": "{server.players.current} / {server.players.max} игроков",
+      "world_name": "Находится на {world.name}"
     }
   }
 }
