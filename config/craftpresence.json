@@ -445,18 +445,8 @@
         "alpha": 208
       }
     },
-    "buttonBackground": {
-      "start": {
-        "red": 255,
-        "green": 255,
-        "blue": 255,
-        "alpha": 255
-      },
-      "texLocation": "minecraft:textures/gui/widgets.png"
-    },
     "languageId": "ru",
     "stripTranslationColors": false,
-    "showLoggingInChat": true,
     "stripExtraGuiElements": false,
     "renderTooltips": true,
     "configKeyCode": 96
