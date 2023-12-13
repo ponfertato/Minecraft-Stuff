@@ -305,27 +305,6 @@
             }
           }
         }
-      },
-      "minecraft.laspegasus.ru": {
-        "textOverride": "Играет на {server.name}",
-        "data": {
-          "enabled": true,
-          "useAsMain": false,
-          "details": "",
-          "gameState": "",
-          "largeImageKey": "",
-          "largeImageText": "",
-          "smallImageKey": "",
-          "smallImageText": "",
-          "startTimestamp": "",
-          "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Пример текста",
-              "url": "https://google.com"
-            }
-          }
-        }
       }
     }
   },
@@ -473,8 +452,7 @@
     },
     "dynamicIcons": {
       "ponfertato": "https://mc-heads.net/avatar/f754f8aaea9e4ed0bfcd0ada8772d817",
-      "default": "https://via.placeholder.com/256.png",
-      "minecraft.laspegasus.ru": "https://api.mcsrvstat.us/icon/minecraft.laspegasus.ru"
+      "default": "https://via.placeholder.com/256.png"
     },
     "dynamicVariables": {
       "default": "Пример текста",
