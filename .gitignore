@@ -1,3 +1,4 @@
 config/*
+shaderpacks/*.txt
 mods/.index
 !config/craftpresence.json
