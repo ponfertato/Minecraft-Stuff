@@ -1,6 +1,6 @@
 {
-  "_schemaVersion": 6,
-  "_lastMCVersionId": 767,
+  "_schemaVersion": 7,
+  "_lastMCVersionId": 754,
   "generalSettings": {
     "detectATLauncherInstance": true,
     "detectCurseManifest": true,
@@ -106,12 +106,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Пример текста",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "windswept_hills": {
@@ -258,12 +253,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Пример текста",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "default": {
@@ -304,12 +294,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Пример текста",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "connect.potatoenergy.ru": {
@@ -329,12 +314,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Пример текста",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       }
     },
@@ -361,12 +341,7 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Пример текста",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "lanData": {
@@ -417,8 +392,7 @@
     "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10,
-    "enableClassGraph": false,
-    "useClassLoader": false
+    "enableClassGraph": false
   },
   "accessibilitySettings": {
     "languageId": "ru",
@@ -442,22 +416,15 @@
       "smallImageText": "Версия {getOrDefault(pack.name)}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {
-        "default": {
-          "label": "Пример текста",
-          "url": "https://google.com"
-        }
-      }
+      "buttons": {}
     },
     "dynamicIcons": {
       "ponfertato": "https://mc-heads.net/avatar/f754f8aaea9e4ed0bfcd0ada8772d817",
-      "default": "https://via.placeholder.com/256.png",
       "connect.potatoenergy.ru": "https://api.mcsrvstat.us/icon/connect.potatoenergy.ru"
     },
     "dynamicVariables": {
       "player_item": "Держит предмет {item.main_hand.message}",
       "world_name": "Находится на {world.name}",
-      "default": "Пример текста",
       "mods": "{general.mods} Мод(ы)",
       "player_position": "Находится на {player.position.x}, {player.position.z}",
       "server_players": "{server.players.current} / {server.players.max} игроков",
