@@ -1,3 +1,5 @@
 config/*
 mods/.index
+resourcepacks/.index
+shaderpacks/*.pw.toml
 !config/craftpresence.json
